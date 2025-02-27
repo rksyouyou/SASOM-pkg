@@ -64,7 +64,7 @@ The **SASOM** function performs a score-based association test to evaluate the r
 
 The results from running SASOM on `SASOM.data` indicate statistical significance across multiple combination methods. The **fixed effect p-value (`pval.theta`)** is **4.81e-05**, while the **random effect p-value (`pval.tau`)** is **6.84e-05**, both suggesting a notable association between somatic mutations and disease subtypes. The overall p-values, derived using different combination methods, further reinforce this conclusion. **Fisher’s method (`p.fisher = 6.76e-08`)** and the **Data-Adaptive P-value Combination (DAPC) method (`p.dapc = 6.96e-08`)** yield the most significant results, while **Tippet’s method (`p.tippet = 9.62e-05`)** provides a more conservative estimate.  
 
-These findings suggest a strong association between **somatic mutations and multinomial outcomes**, demonstrating **SASOM’s** utility in genomic studies where mutations may influence disease subtypes or progression. By incorporating multiple statistical approaches, SASOM provides a versatile and powerful framework for **hypothesis testing in cancer research and other genetic association studies**.
+These findings suggest a strong association between somatic mutations and multinomial outcomes. By incorporating multiple statistical approaches, SASOM provides a versatile and powerful framework for hypothesis testing in cancer research and other genetic association studies.
 ## Citation
 
 If you use **SASOM** in your research, please cite the following:
