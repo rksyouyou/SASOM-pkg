@@ -15,7 +15,7 @@ The SASOM has been implemented into the SASOM package. The **SASOM** package imp
 - Accommodates both **fixed** and **random** genetic variant effects.
 
 ## Installation
-You can install the tcrl package by downloading the SASOM_0.1.0.tar.gz file to your local system. Once downloaded, install it from your local file path using the following command in R:
+You can install the SASOM package by downloading the SASOM_0.1.0.tar.gz file to your local system. Once downloaded, install it from your local file path using the following command in R:
 
 ```{r}
 install.packages("path/to/SASOM_0.1.0.tar.gz", repos = NULL, type = "source")
